@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../ForgotPasswordPage/ForgotPassword.css";
+import logo from "../../Images/Logo-Black.png";
 
 function ForgotPassword() {
     const [email, setEmail] = useState("");
@@ -12,7 +13,7 @@ function ForgotPassword() {
     return (
         <>
         <div className="header">
-            <img src="../../Images/Logo ( Black ).png" alt="logo" />
+            <img src={ logo } alt="logo" />
             <button>Login</button>
         </div>
         <div className="forgot-password">
